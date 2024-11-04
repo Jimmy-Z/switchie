@@ -1,0 +1,22 @@
+{
+	"manifest_version": 3,
+	"name": "Proxy Switcher",
+	"version": "0.0.1",
+	"description": "open source minimalism proxy switcher",
+	"icons": {
+		"128": "icon/128.png"
+	},
+	"action": {
+		"default_icon": "icon/128.png",
+		"default_title": "Proxy Switcher",
+		"default_popup": "popup.html"
+	},
+	"options_page": "options.html",
+	"background": {
+		"service_worker": "event.js"
+	},
+	"permissions": [
+		"storage",
+		"proxy"
+	]
+}

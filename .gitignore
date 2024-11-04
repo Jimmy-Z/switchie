@@ -1,0 +1,4 @@
+.vscode
+node_modules
+switchie/*.js
+package-lock.json
